@@ -6,8 +6,8 @@
 # 时间: 20200407
 # 说明: 默认情况下修改server和user就可以了。丢包率监测方向可以自定义，例如：CU = "www.facebook.com"。
 
-SERVER = "monitor.paicoop.net"
-USER = "default"
+SERVER = "monitor-server"
+USER = "paicoop.net"
 
 
 
