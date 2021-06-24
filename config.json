@@ -1,0 +1,12 @@
+{"servers":
+	[
+		{
+			"username": "paicoop.net",
+			"name": "paicoop.net",
+			"type": "vps",
+			"host": "paicoop.net",
+			"location": "cn-Beijing",
+			"password": "USER_DEFAULT_PASSWORD"
+		}
+	]
+}

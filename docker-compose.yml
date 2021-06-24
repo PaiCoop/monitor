@@ -1,0 +1,19 @@
+version: '3'
+services:
+
+  monitor.paicoop.net:
+    image: cppla/serverstatus:arm
+    container_name: monitor-server
+    restart: always
+    volumes:
+      - "./config.json:/ServerStatus/server/config.json"
+#   ports:
+#     - "35601:35601"
+
+
+  client.monitor.paicoop.net:
+      build: ./
+      container_name: monitor-client
+      restart: always
+      command: USER=paicoop.net
+      network_mode: "host"
